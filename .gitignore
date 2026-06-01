@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.python-version
+
+# Virtualenv created at repo root (bin/, lib/, etc.)
+bin/
+lib/
+lib64/
+include/
+share/
+pyvenv.cfg
+
+# Env
+.env
+
+# Eval artefacts (keep instances list and final results)
+eval/runs/
+eval/smoke_predictions.jsonl
+eval/smoke_predictions_gold.jsonl
+!eval/instances.txt
+!eval/results.json
+
+# SWE-bench harness output (logs tree + root-level summary reports)
+logs/
+*.smoke-test-day1.json
+*.smoke-gold-day1.json
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Ruff
+.ruff_cache/

@@ -1,0 +1,44 @@
+{
+  "summary": {
+    "total": 3,
+    "resolved": 0,
+    "exhausted_retries": 3,
+    "errored": 0,
+    "resolution_rate": 0.0
+  },
+  "instances": [
+    {
+      "instance_id": "pallets__flask-4045",
+      "final_status": "exhausted_retries",
+      "attempts": 3,
+      "retry_count": 2,
+      "top_candidate_file": "src/flask/app.py",
+      "confidence": 0.78,
+      "fail_to_pass_passed": [],
+      "run_dir": "eval/runs/20260606T102229Z__pallets__flask-4045",
+      "error": null
+    },
+    {
+      "instance_id": "pallets__flask-4992",
+      "final_status": "exhausted_retries",
+      "attempts": 3,
+      "retry_count": 2,
+      "top_candidate_file": "src/flask/config.py",
+      "confidence": 0.92,
+      "fail_to_pass_passed": [],
+      "run_dir": "eval/runs/20260606T102646Z__pallets__flask-4992",
+      "error": null
+    },
+    {
+      "instance_id": "pallets__flask-5063",
+      "final_status": "exhausted_retries",
+      "attempts": 3,
+      "retry_count": 2,
+      "top_candidate_file": "src/flask/cli.py",
+      "confidence": 0.62,
+      "fail_to_pass_passed": [],
+      "run_dir": "eval/runs/20260606T103425Z__pallets__flask-5063",
+      "error": null
+    }
+  ]
+}

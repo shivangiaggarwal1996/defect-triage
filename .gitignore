@@ -18,6 +18,7 @@ pyvenv.cfg
 
 # Eval artefacts (keep instances list and final results)
 eval/runs/
+eval/repos/
 eval/smoke_predictions.jsonl
 eval/smoke_predictions_gold.jsonl
 !eval/instances.txt
